@@ -32,6 +32,7 @@ module.exports.launch = async (client) => {
     .use(express.static(path.join(__dirname, "/public"))) // Set the css and js folder to ./public
     .set("views", path.join(__dirname, "/views")) // Set the ejs templates to ./views
     .set("port", config.DASHBOARD.port) // Set the dashboard port
+    .use("/health", (req, res) => res.send("OK"))
     .use(
       session({
         secret: process.env.SESSION_PASSWORD,
