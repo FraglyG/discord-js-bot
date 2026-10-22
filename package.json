@@ -6,7 +6,7 @@
   "author": "Sai Teja M",
   "license": "ISC",
   "engines": {
-    "node": ">=18.0.0"
+    "node": "22.23.4"
   },
   "scripts": {
     "dev": "nodemon .",
@@ -46,6 +46,7 @@
     "module-alias": "^2.2.3",
     "moment": "^2.30.1",
     "mongoose": "^8.1.1",
+    "nekos.life": "^3.0.0",
     "node-fetch": "^2.7.0",
     "os": "^0.1.2",
     "pino": "^8.18.0",
@@ -67,7 +68,6 @@
   "devDependencies": {
     "eslint": "^8.56.0",
     "eslint-plugin-jsdoc": "^46.4.3",
-    "node": "^18.18.2",
     "nodemon": "^3.0.3",
     "prettier": "3.2.5"
   },
